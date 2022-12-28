@@ -3,7 +3,7 @@ import NewNote from "./components/NewNote";
 
 function App() {
   return (
-    <div className="container m-4">
+    <div className="container m-4 ">
       <Routes>
         <Route path="/" element={<h1>Home</h1>} />
         <Route path="/new" element={<NewNote />} />
